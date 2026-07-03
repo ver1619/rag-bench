@@ -1,0 +1,177 @@
+[
+    {
+        "document_id": "doc001",
+        "filename": "AgenticDB_paper.pdf",
+        "title": "AgenticDB: Agentic Performance Reconfiguration for Database Workloads",
+        "pages": 14,
+        "file_size": 1359306
+    },
+    {
+        "document_id": "doc002",
+        "filename": "AgentsCAD_paper.pdf",
+        "title": "AgentsCAD: Automated Design for Manufacturing of FDM Parts via Multi-Agent LLM Reasoning and Geometric Feature Recognition",
+        "pages": 28,
+        "file_size": 3935737
+    },
+    {
+        "document_id": "doc003",
+        "filename": "Approximate_Nearest_Neigbour_Search_paper.pdf",
+        "title": "Approximate Nearest Neighbor Search with Graph Range Filters",
+        "pages": 13,
+        "file_size": 3561144
+    },
+    {
+        "document_id": "doc004",
+        "filename": "Computer_Network_Notes.pdf",
+        "title": "Computer Network Notes",
+        "pages": 84,
+        "file_size": 2395655
+    },
+    {
+        "document_id": "doc005",
+        "filename": "ContextNest_paper.pdf",
+        "title": "ContextNest: Verifiable Context Governance for Autonomous AI Agent",
+        "pages": 35,
+        "file_size": 1601442
+    },
+    {
+        "document_id": "doc006",
+        "filename": "Data_Storage.pdf",
+        "title": "0004447810 1..21 ++",
+        "pages": 21,
+        "file_size": 337212
+    },
+    {
+        "document_id": "doc007",
+        "filename": "evaluating_chunking_strategies_paper.pdf",
+        "title": "Evaluating Chunking Strategies for Retrieval-Augmented Generation on Academic Texts",
+        "pages": 4,
+        "file_size": 692936
+    },
+    {
+        "document_id": "doc008",
+        "filename": "FlintKV_paper.pdf",
+        "title": "FlintKV: A Fast Durable Storage Engine for Modern Databases",
+        "pages": 16,
+        "file_size": 1520793
+    },
+    {
+        "document_id": "doc009",
+        "filename": "git_doc.pdf",
+        "title": "Git User Manual",
+        "pages": 78,
+        "file_size": 352734
+    },
+    {
+        "document_id": "doc010",
+        "filename": "github_manual.pdf",
+        "title": "GitHub for Developers: Training Manual",
+        "pages": 58,
+        "file_size": 1790157
+    },
+    {
+        "document_id": "doc011",
+        "filename": "HyphaeDB_paper.pdf",
+        "title": "HyphaeDB: A Living Knowledge Topology for Agent-First Memory",
+        "pages": 14,
+        "file_size": 276630
+    },
+    {
+        "document_id": "doc012",
+        "filename": "Introduction to Linux – A Hands on Guide.pdf",
+        "title": "Introduction to Linux",
+        "pages": 223,
+        "file_size": 1600364
+    },
+    {
+        "document_id": "doc013",
+        "filename": "Introduction_to_ML.pdf",
+        "title": "Introduction to ML",
+        "pages": 188,
+        "file_size": 1899248
+    },
+    {
+        "document_id": "doc014",
+        "filename": "introduction_to_programming_using_java.pdf",
+        "title": "javanotes9.dvi",
+        "pages": 781,
+        "file_size": 6524108
+    },
+    {
+        "document_id": "doc015",
+        "filename": "jwt_handbook.pdf",
+        "title": "The JWT Handbook",
+        "pages": 120,
+        "file_size": 1728914
+    },
+    {
+        "document_id": "doc016",
+        "filename": "Linux_for_Beginners_by_Jason_Cannon.pdf",
+        "title": "Linux for Beginners: An Introduction to the Linux Operating System and Command Line",
+        "pages": 202,
+        "file_size": 2495778
+    },
+    {
+        "document_id": "doc017",
+        "filename": "Mastering_FastAPI_with_Python.pdf",
+        "title": "Mastering FastAPI with Python",
+        "pages": 139,
+        "file_size": 974196
+    },
+    {
+        "document_id": "doc018",
+        "filename": "postgres_18_doc.pdf",
+        "title": "PostgreSQL 18.4 Documentation",
+        "pages": 3130,
+        "file_size": 15771040
+    },
+    {
+        "document_id": "doc019",
+        "filename": "python_for_everybody.pdf",
+        "title": "Python for Everybody",
+        "pages": 241,
+        "file_size": 2369098
+    },
+    {
+        "document_id": "doc020",
+        "filename": "python_installation.pdf",
+        "title": "Python Installation Instruction",
+        "pages": 8,
+        "file_size": 416875
+    },
+    {
+        "document_id": "doc021",
+        "filename": "RAG_DRIVEN_GENERATIVE_AI.pdf",
+        "title": "RAG DRIVEN GENERATIVE AI",
+        "pages": 335,
+        "file_size": 21169083
+    },
+    {
+        "document_id": "doc022",
+        "filename": "ReSequel_paper.pdf",
+        "title": "ReSequel: Robust LLM-assisted Query Rewriting and Optimization using Templatization and Sampling",
+        "pages": 14,
+        "file_size": 2785184
+    },
+    {
+        "document_id": "doc023",
+        "filename": "The.Go.Programming.Language.pdf",
+        "title": "The Go Programming Language.pdf",
+        "pages": 400,
+        "file_size": 6837518
+    },
+    {
+        "document_id": "doc024",
+        "filename": "TheDockerBook.pdf",
+        "title": "The Docker Book",
+        "pages": 83,
+        "file_size": 2533358
+    },
+    {
+        "document_id": "doc025",
+        "filename": "understanding_fundamentals_of_ml.pdf",
+        "title": "understanding fundamentals of ml",
+        "pages": 163,
+        "file_size": 3769719
+    }
+]
