@@ -1,0 +1,2507 @@
+[
+    {
+        "query_id": "q001",
+        "query": "What are the main components of the AgenticDB framework?",
+        "relevant_documents": [
+            {
+                "document_id": "doc001"
+            }
+        ]
+    },
+    {
+        "query_id": "q002",
+        "query": "How does the LLM DBA Planner function in AgenticDB?",
+        "relevant_documents": [
+            {
+                "document_id": "doc001"
+            }
+        ]
+    },
+    {
+        "query_id": "q003",
+        "query": "What role does the Memory Book play in AgenticDB's reconfiguration process?",
+        "relevant_documents": [
+            {
+                "document_id": "doc001"
+            }
+        ]
+    },
+    {
+        "query_id": "q004",
+        "query": "Explain the blackboard architecture used in AgenticDB for phase control.",
+        "relevant_documents": [
+            {
+                "document_id": "doc001"
+            }
+        ]
+    },
+    {
+        "query_id": "q005",
+        "query": "How does AgenticDB handle recovery when a reconfiguration action fails?",
+        "relevant_documents": [
+            {
+                "document_id": "doc001"
+            }
+        ]
+    },
+    {
+        "query_id": "q006",
+        "query": "What is the role of the Validator component in AgenticDB?",
+        "relevant_documents": [
+            {
+                "document_id": "doc001"
+            }
+        ]
+    },
+    {
+        "query_id": "q007",
+        "query": "How does the Executor in AgenticDB apply reconfiguration actions?",
+        "relevant_documents": [
+            {
+                "document_id": "doc001"
+            }
+        ]
+    },
+    {
+        "query_id": "q008",
+        "query": "What is the Initializer's purpose in the AgenticDB framework?",
+        "relevant_documents": [
+            {
+                "document_id": "doc001"
+            }
+        ]
+    },
+    {
+        "query_id": "q009",
+        "query": "How does the Auditor component ensure correctness in AgenticDB?",
+        "relevant_documents": [
+            {
+                "document_id": "doc001"
+            }
+        ]
+    },
+    {
+        "query_id": "q010",
+        "query": "What multi-agent architecture does AgentsCAD use for FDM part design?",
+        "relevant_documents": [
+            {
+                "document_id": "doc002"
+            }
+        ]
+    },
+    {
+        "query_id": "q011",
+        "query": "How does GraphSAGE contribute to feature recognition in AgentsCAD?",
+        "relevant_documents": [
+            {
+                "document_id": "doc002"
+            }
+        ]
+    },
+    {
+        "query_id": "q012",
+        "query": "What is B-Rep feature recognition and how is it used in AgentsCAD?",
+        "relevant_documents": [
+            {
+                "document_id": "doc002"
+            }
+        ]
+    },
+    {
+        "query_id": "q013",
+        "query": "How does AgentsCAD perform geometry modification for manufacturing constraints?",
+        "relevant_documents": [
+            {
+                "document_id": "doc002"
+            }
+        ]
+    },
+    {
+        "query_id": "q014",
+        "query": "What is design-for-manufacturing (DFM) in the context of FDM 3D printing?",
+        "relevant_documents": [
+            {
+                "document_id": "doc002"
+            }
+        ]
+    },
+    {
+        "query_id": "q015",
+        "query": "How does AgentsCAD use LLM-based reasoning for geometry analysis?",
+        "relevant_documents": [
+            {
+                "document_id": "doc002"
+            }
+        ]
+    },
+    {
+        "query_id": "q016",
+        "query": "What is the ANNGR (ANN with Graph Range) problem addressed by DLH?",
+        "relevant_documents": [
+            {
+                "document_id": "doc003"
+            }
+        ]
+    },
+    {
+        "query_id": "q017",
+        "query": "How do Bloom filters enable hash compression in the DLH index?",
+        "relevant_documents": [
+            {
+                "document_id": "doc003"
+            }
+        ]
+    },
+    {
+        "query_id": "q018",
+        "query": "What is the difference between DLH and DLH-M in approximate nearest neighbor search?",
+        "relevant_documents": [
+            {
+                "document_id": "doc003"
+            }
+        ]
+    },
+    {
+        "query_id": "q019",
+        "query": "How does DLH-M use memoization to reduce redundant hash computations?",
+        "relevant_documents": [
+            {
+                "document_id": "doc003"
+            }
+        ]
+    },
+    {
+        "query_id": "q020",
+        "query": "What datasets were used in the experimental evaluation of DLH and DLH-M?",
+        "relevant_documents": [
+            {
+                "document_id": "doc003"
+            }
+        ]
+    },
+    {
+        "query_id": "q021",
+        "query": "How does DLH perform post-filtering for the graph range constraint?",
+        "relevant_documents": [
+            {
+                "document_id": "doc003"
+            }
+        ]
+    },
+    {
+        "query_id": "q022",
+        "query": "What is the QPS improvement achieved by DLH over baseline methods?",
+        "relevant_documents": [
+            {
+                "document_id": "doc003"
+            }
+        ]
+    },
+    {
+        "query_id": "q023",
+        "query": "How does the distance-aware labeling scheme work in DLH?",
+        "relevant_documents": [
+            {
+                "document_id": "doc003"
+            }
+        ]
+    },
+    {
+        "query_id": "q024",
+        "query": "What are the baseline methods compared against DLH in the experiments?",
+        "relevant_documents": [
+            {
+                "document_id": "doc003"
+            }
+        ]
+    },
+    {
+        "query_id": "q025",
+        "query": "How does varying the false positive probability of Bloom filters affect DLH performance?",
+        "relevant_documents": [
+            {
+                "document_id": "doc003"
+            }
+        ]
+    },
+    {
+        "query_id": "q026",
+        "query": "What is the difference between circuit switching and packet switching?",
+        "relevant_documents": [
+            {
+                "document_id": "doc004"
+            }
+        ]
+    },
+    {
+        "query_id": "q027",
+        "query": "What are the seven layers of the OSI model and their functions?",
+        "relevant_documents": [
+            {
+                "document_id": "doc004"
+            }
+        ]
+    },
+    {
+        "query_id": "q028",
+        "query": "How does TCP provide reliable data transfer over an unreliable channel?",
+        "relevant_documents": [
+            {
+                "document_id": "doc004"
+            }
+        ]
+    },
+    {
+        "query_id": "q029",
+        "query": "What is the DNS hierarchy and how does domain name resolution work?",
+        "relevant_documents": [
+            {
+                "document_id": "doc004"
+            }
+        ]
+    },
+    {
+        "query_id": "q030",
+        "query": "Explain the difference between UDP and TCP at the transport layer.",
+        "relevant_documents": [
+            {
+                "document_id": "doc004"
+            }
+        ]
+    },
+    {
+        "query_id": "q031",
+        "query": "What is the Go-Back-N protocol and how does it work?",
+        "relevant_documents": [
+            {
+                "document_id": "doc004"
+            }
+        ]
+    },
+    {
+        "query_id": "q032",
+        "query": "How does the Leaky Bucket algorithm control congestion in networks?",
+        "relevant_documents": [
+            {
+                "document_id": "doc004"
+            }
+        ]
+    },
+    {
+        "query_id": "q033",
+        "query": "What is the difference between the Token Bucket and Leaky Bucket algorithms?",
+        "relevant_documents": [
+            {
+                "document_id": "doc004"
+            }
+        ]
+    },
+    {
+        "query_id": "q034",
+        "query": "How does HTTP request and response message format work?",
+        "relevant_documents": [
+            {
+                "document_id": "doc004"
+            }
+        ]
+    },
+    {
+        "query_id": "q035",
+        "query": "What are the different types of DNS records (A, CNAME, NS, MX, PTR)?",
+        "relevant_documents": [
+            {
+                "document_id": "doc004"
+            }
+        ]
+    },
+    {
+        "query_id": "q036",
+        "query": "How do cookies work in the HTTP protocol?",
+        "relevant_documents": [
+            {
+                "document_id": "doc004"
+            }
+        ]
+    },
+    {
+        "query_id": "q037",
+        "query": "What is multiplexing and de-multiplexing at the transport layer?",
+        "relevant_documents": [
+            {
+                "document_id": "doc004"
+            }
+        ]
+    },
+    {
+        "query_id": "q038",
+        "query": "What is the Estimated RTT formula and how is the retransmission timeout interval calculated?",
+        "relevant_documents": [
+            {
+                "document_id": "doc004"
+            }
+        ]
+    },
+    {
+        "query_id": "q039",
+        "query": "What is the difference between distance vector and link state routing algorithms?",
+        "relevant_documents": [
+            {
+                "document_id": "doc004"
+            }
+        ]
+    },
+    {
+        "query_id": "q040",
+        "query": "How does FTP establish control and data connections?",
+        "relevant_documents": [
+            {
+                "document_id": "doc004"
+            }
+        ]
+    },
+    {
+        "query_id": "q041",
+        "query": "What are the different classes of IPv4 addresses?",
+        "relevant_documents": [
+            {
+                "document_id": "doc004"
+            }
+        ]
+    },
+    {
+        "query_id": "q042",
+        "query": "What is the difference between static and dynamic routing?",
+        "relevant_documents": [
+            {
+                "document_id": "doc004"
+            }
+        ]
+    },
+    {
+        "query_id": "q043",
+        "query": "What is the Selective Repeat protocol and how does it differ from Go-Back-N?",
+        "relevant_documents": [
+            {
+                "document_id": "doc004"
+            }
+        ]
+    },
+    {
+        "query_id": "q044",
+        "query": "What are the differences between guided and unguided physical media?",
+        "relevant_documents": [
+            {
+                "document_id": "doc004"
+            }
+        ]
+    },
+    {
+        "query_id": "q045",
+        "query": "What are the advantages and disadvantages of client-server vs peer-to-peer networks?",
+        "relevant_documents": [
+            {
+                "document_id": "doc004"
+            }
+        ]
+    },
+    {
+        "query_id": "q046",
+        "query": "What is the context governance gap (CGG) addressed by ContextNest?",
+        "relevant_documents": [
+            {
+                "document_id": "doc005"
+            }
+        ]
+    },
+    {
+        "query_id": "q047",
+        "query": "How does ContextNest use SHA-256 hash-chained version histories for integrity?",
+        "relevant_documents": [
+            {
+                "document_id": "doc005"
+            }
+        ]
+    },
+    {
+        "query_id": "q048",
+        "query": "What are the six context governance properties defined in ContextNest?",
+        "relevant_documents": [
+            {
+                "document_id": "doc005"
+            }
+        ]
+    },
+    {
+        "query_id": "q049",
+        "query": "How does ContextNest's selector grammar provide deterministic selection?",
+        "relevant_documents": [
+            {
+                "document_id": "doc005"
+            }
+        ]
+    },
+    {
+        "query_id": "q050",
+        "query": "What is the relationship between ContextNest and RAG systems?",
+        "relevant_documents": [
+            {
+                "document_id": "doc005"
+            }
+        ]
+    },
+    {
+        "query_id": "q051",
+        "query": "How does the checkpoint system in ContextNest enable temporal reconstruction?",
+        "relevant_documents": [
+            {
+                "document_id": "doc005"
+            }
+        ]
+    },
+    {
+        "query_id": "q052",
+        "query": "What node types are defined in the ContextNest document model?",
+        "relevant_documents": [
+            {
+                "document_id": "doc005"
+            }
+        ]
+    },
+    {
+        "query_id": "q053",
+        "query": "How does the stewardship model in ContextNest enforce separation of duties?",
+        "relevant_documents": [
+            {
+                "document_id": "doc005"
+            }
+        ]
+    },
+    {
+        "query_id": "q054",
+        "query": "What is the contextnest:// URI scheme and how does version pinning work?",
+        "relevant_documents": [
+            {
+                "document_id": "doc005"
+            }
+        ]
+    },
+    {
+        "query_id": "q055",
+        "query": "How did ContextNest perform in the stale-version attack experiment?",
+        "relevant_documents": [
+            {
+                "document_id": "doc005"
+            }
+        ]
+    },
+    {
+        "query_id": "q056",
+        "query": "What were the results of the retrieval determinism experiment in ContextNest?",
+        "relevant_documents": [
+            {
+                "document_id": "doc005"
+            }
+        ]
+    },
+    {
+        "query_id": "q057",
+        "query": "What threat model does ContextNest define for integrity verification?",
+        "relevant_documents": [
+            {
+                "document_id": "doc005"
+            }
+        ]
+    },
+    {
+        "query_id": "q058",
+        "query": "How do source nodes work in ContextNest for live data integration?",
+        "relevant_documents": [
+            {
+                "document_id": "doc005"
+            }
+        ]
+    },
+    {
+        "query_id": "q059",
+        "query": "What is the audit trace schema in ContextNest and what does it record?",
+        "relevant_documents": [
+            {
+                "document_id": "doc005"
+            }
+        ]
+    },
+    {
+        "query_id": "q060",
+        "query": "What is the staged source-node lifecycle state in ContextNest?",
+        "relevant_documents": [
+            {
+                "document_id": "doc005"
+            }
+        ]
+    },
+    {
+        "query_id": "q061",
+        "query": "What are the FAIR principles for research data management?",
+        "relevant_documents": [
+            {
+                "document_id": "doc006"
+            }
+        ]
+    },
+    {
+        "query_id": "q062",
+        "query": "How does blockchain technology apply to research data provenance and anonymisation?",
+        "relevant_documents": [
+            {
+                "document_id": "doc006"
+            }
+        ]
+    },
+    {
+        "query_id": "q063",
+        "query": "What are the key features to consider when choosing a data storage solution?",
+        "relevant_documents": [
+            {
+                "document_id": "doc006"
+            }
+        ]
+    },
+    {
+        "query_id": "q064",
+        "query": "What is the role of metadata in research data management and what types exist?",
+        "relevant_documents": [
+            {
+                "document_id": "doc006"
+            }
+        ]
+    },
+    {
+        "query_id": "q065",
+        "query": "How does the Digital Object Identifier (DOI) system ensure persistent identification?",
+        "relevant_documents": [
+            {
+                "document_id": "doc006"
+            }
+        ]
+    },
+    {
+        "query_id": "q066",
+        "query": "What Creative Commons licences are available for research data?",
+        "relevant_documents": [
+            {
+                "document_id": "doc006"
+            }
+        ]
+    },
+    {
+        "query_id": "q067",
+        "query": "How does data anonymisation work and why is it important for research?",
+        "relevant_documents": [
+            {
+                "document_id": "doc006"
+            }
+        ]
+    },
+    {
+        "query_id": "q068",
+        "query": "What are the legal frameworks governing research data storage (GDPR, UK Data Protection Act, PATRIOT Act)?",
+        "relevant_documents": [
+            {
+                "document_id": "doc006"
+            }
+        ]
+    },
+    {
+        "query_id": "q069",
+        "query": "What is the difference between magnetic, optical, and semiconductor storage?",
+        "relevant_documents": [
+            {
+                "document_id": "doc006"
+            }
+        ]
+    },
+    {
+        "query_id": "q070",
+        "query": "What is bit rot and how can checksums help detect data corruption?",
+        "relevant_documents": [
+            {
+                "document_id": "doc006"
+            }
+        ]
+    },
+    {
+        "query_id": "q071",
+        "query": "What chunking strategies are compared in the evaluation of RAG on academic texts?",
+        "relevant_documents": [
+            {
+                "document_id": "doc007"
+            }
+        ]
+    },
+    {
+        "query_id": "q072",
+        "query": "How does cluster-based semantic chunking work in the context of RAG?",
+        "relevant_documents": [
+            {
+                "document_id": "doc007"
+            }
+        ]
+    },
+    {
+        "query_id": "q073",
+        "query": "What is the Answer Quality Score (AQS) metric and how is it calculated?",
+        "relevant_documents": [
+            {
+                "document_id": "doc007"
+            }
+        ]
+    },
+    {
+        "query_id": "q074",
+        "query": "How does fixed-size chunking compare to recursive chunking for RAG?",
+        "relevant_documents": [
+            {
+                "document_id": "doc007"
+            }
+        ]
+    },
+    {
+        "query_id": "q075",
+        "query": "What limitations of RAGAs (Retrieval Augmented Generation Assessment) were identified in the chunking evaluation?",
+        "relevant_documents": [
+            {
+                "document_id": "doc007"
+            }
+        ]
+    },
+    {
+        "query_id": "q076",
+        "query": "What is the RAGAs framework and how does it evaluate RAG systems?",
+        "relevant_documents": [
+            {
+                "document_id": "doc007"
+            }
+        ]
+    },
+    {
+        "query_id": "q077",
+        "query": "What were the key findings about cluster-based chunking vs simpler strategies in the RAG evaluation?",
+        "relevant_documents": [
+            {
+                "document_id": "doc007"
+            }
+        ]
+    },
+    {
+        "query_id": "q078",
+        "query": "What is the Context F1 metric and how does it relate to retrieval quality in RAG?",
+        "relevant_documents": [
+            {
+                "document_id": "doc007"
+            }
+        ]
+    },
+    {
+        "query_id": "q079",
+        "query": "What embedding model and LLM were used in the chunking strategies evaluation?",
+        "relevant_documents": [
+            {
+                "document_id": "doc007"
+            }
+        ]
+    },
+    {
+        "query_id": "q080",
+        "query": "What is late chunking and how does it differ from traditional chunking approaches?",
+        "relevant_documents": [
+            {
+                "document_id": "doc007"
+            }
+        ]
+    },
+    {
+        "query_id": "q081",
+        "query": "What is FlintKV and what problem does it solve for NVM-based databases?",
+        "relevant_documents": [
+            {
+                "document_id": "doc008"
+            }
+        ]
+    },
+    {
+        "query_id": "q082",
+        "query": "How does flat-combining concurrency control work in FlintKV?",
+        "relevant_documents": [
+            {
+                "document_id": "doc008"
+            }
+        ]
+    },
+    {
+        "query_id": "q083",
+        "query": "What is durable linearizability and how does FlintKV guarantee it?",
+        "relevant_documents": [
+            {
+                "document_id": "doc008"
+            }
+        ]
+    },
+    {
+        "query_id": "q084",
+        "query": "What are the four phases of FlintKV's update operation execution?",
+        "relevant_documents": [
+            {
+                "document_id": "doc008"
+            }
+        ]
+    },
+    {
+        "query_id": "q085",
+        "query": "How does FlintKV's skiplist data structure differ from RocksDB's approach?",
+        "relevant_documents": [
+            {
+                "document_id": "doc008"
+            }
+        ]
+    },
+    {
+        "query_id": "q086",
+        "query": "What is the role of multi-versioning in FlintKV's concurrency control?",
+        "relevant_documents": [
+            {
+                "document_id": "doc008"
+            }
+        ]
+    },
+    {
+        "query_id": "q087",
+        "query": "How does FlintKV handle atomic WriteBatch operations?",
+        "relevant_documents": [
+            {
+                "document_id": "doc008"
+            }
+        ]
+    },
+    {
+        "query_id": "q088",
+        "query": "What persistence primitives (CLWB, SFENCE, MFENCE) does FlintKV use?",
+        "relevant_documents": [
+            {
+                "document_id": "doc008"
+            }
+        ]
+    },
+    {
+        "query_id": "q089",
+        "query": "How does FlintKV's volatile DRAM layer interact with the persistent NVM layer?",
+        "relevant_documents": [
+            {
+                "document_id": "doc008"
+            }
+        ]
+    },
+    {
+        "query_id": "q090",
+        "query": "What throughput improvement does FlintKV achieve over PMemRocksDB?",
+        "relevant_documents": [
+            {
+                "document_id": "doc008"
+            }
+        ]
+    },
+    {
+        "query_id": "q091",
+        "query": "How does FlintKV recover from crashes using its recovery algorithm?",
+        "relevant_documents": [
+            {
+                "document_id": "doc008"
+            }
+        ]
+    },
+    {
+        "query_id": "q092",
+        "query": "What are the limitations of existing NVM key-value stores that FlintKV addresses?",
+        "relevant_documents": [
+            {
+                "document_id": "doc008"
+            }
+        ]
+    },
+    {
+        "query_id": "q093",
+        "query": "How do both AgenticDB and AgentsCAD use a blackboard architecture pattern?",
+        "relevant_documents": [
+            {
+                "document_id": "doc001"
+            },
+            {
+                "document_id": "doc002"
+            }
+        ]
+    },
+    {
+        "query_id": "q094",
+        "query": "How do multi-agent systems leverage LLMs for decision-making in both database and CAD domains?",
+        "relevant_documents": [
+            {
+                "document_id": "doc001"
+            },
+            {
+                "document_id": "doc002"
+            }
+        ]
+    },
+    {
+        "query_id": "q095",
+        "query": "How does ContextNest's hash-chained integrity compare to blockchain-based data integrity in research data?",
+        "relevant_documents": [
+            {
+                "document_id": "doc005"
+            },
+            {
+                "document_id": "doc006"
+            }
+        ]
+    },
+    {
+        "query_id": "q096",
+        "query": "What role does provenance play in both ContextNest's context governance and research data management?",
+        "relevant_documents": [
+            {
+                "document_id": "doc005"
+            },
+            {
+                "document_id": "doc006"
+            }
+        ]
+    },
+    {
+        "query_id": "q097",
+        "query": "How does chunking strategy impact retrieval quality in RAG systems according to the evaluation study?",
+        "relevant_documents": [
+            {
+                "document_id": "doc007"
+            },
+            {
+                "document_id": "doc005"
+            }
+        ]
+    },
+    {
+        "query_id": "q098",
+        "query": "How does approximate nearest neighbor search relate to vector retrieval in RAG systems?",
+        "relevant_documents": [
+            {
+                "document_id": "doc003"
+            },
+            {
+                "document_id": "doc007"
+            }
+        ]
+    },
+    {
+        "query_id": "q099",
+        "query": "How does ContextNest's deterministic selection compare to dense HNSW-based retrieval for reproducibility?",
+        "relevant_documents": [
+            {
+                "document_id": "doc005"
+            },
+            {
+                "document_id": "doc003"
+            }
+        ]
+    },
+    {
+        "query_id": "q100",
+        "query": "How do key-value storage engines like FlintKV compare to data storage systems described in research data management?",
+        "relevant_documents": [
+            {
+                "document_id": "doc008"
+            },
+            {
+                "document_id": "doc006"
+            }
+        ]
+    },
+    {
+        "query_id": "q101",
+        "query": "How do network protocols like TCP ensure reliable data transfer compared to storage consistency in FlintKV?",
+        "relevant_documents": [
+            {
+                "document_id": "doc004"
+            },
+            {
+                "document_id": "doc008"
+            }
+        ]
+    },
+    {
+        "query_id": "q102",
+        "query": "What is the role of version control in both ContextNest's governance model and FlintKV's multi-versioning?",
+        "relevant_documents": [
+            {
+                "document_id": "doc005"
+            },
+            {
+                "document_id": "doc008"
+            }
+        ]
+    },
+    {
+        "query_id": "q103",
+        "query": "How does the HNSW index used in ContextNest's experiments relate to the ANN search approach in the graph range filter paper?",
+        "relevant_documents": [
+            {
+                "document_id": "doc005"
+            },
+            {
+                "document_id": "doc003"
+            }
+        ]
+    },
+    {
+        "query_id": "q104",
+        "query": "What is the Erdos-Renyi model used for in the DLH experimental setup?",
+        "relevant_documents": [
+            {
+                "document_id": "doc003"
+            }
+        ]
+    },
+    {
+        "query_id": "q105",
+        "query": "How does the storage overhead of DLH compare to the original HNSW index?",
+        "relevant_documents": [
+            {
+                "document_id": "doc003"
+            }
+        ]
+    },
+    {
+        "query_id": "q106",
+        "query": "What is the recall rate achieved by DLH across different datasets?",
+        "relevant_documents": [
+            {
+                "document_id": "doc003"
+            }
+        ]
+    },
+    {
+        "query_id": "q107",
+        "query": "How does varying the graph range parameter r affect DLH performance?",
+        "relevant_documents": [
+            {
+                "document_id": "doc003"
+            }
+        ]
+    },
+    {
+        "query_id": "q108",
+        "query": "What is the difference between a datagram network and a virtual circuit network?",
+        "relevant_documents": [
+            {
+                "document_id": "doc004"
+            }
+        ]
+    },
+    {
+        "query_id": "q109",
+        "query": "What is the function of a hub, switch, router, and bridge in computer networks?",
+        "relevant_documents": [
+            {
+                "document_id": "doc004"
+            }
+        ]
+    },
+    {
+        "query_id": "q110",
+        "query": "How does flow control work in TCP connections?",
+        "relevant_documents": [
+            {
+                "document_id": "doc004"
+            }
+        ]
+    },
+    {
+        "query_id": "q111",
+        "query": "What are the phases of a virtual circuit: setup, data transfer, and teardown?",
+        "relevant_documents": [
+            {
+                "document_id": "doc004"
+            }
+        ]
+    },
+    {
+        "query_id": "q112",
+        "query": "How does ContextNest handle sub-document selection for large documents?",
+        "relevant_documents": [
+            {
+                "document_id": "doc005"
+            }
+        ]
+    },
+    {
+        "query_id": "q113",
+        "query": "What governance modes (ungoverned vs governed) exist in ContextNest vaults?",
+        "relevant_documents": [
+            {
+                "document_id": "doc005"
+            }
+        ]
+    },
+    {
+        "query_id": "q114",
+        "query": "How does ContextNest's context pack mechanism work for saved queries?",
+        "relevant_documents": [
+            {
+                "document_id": "doc005"
+            }
+        ]
+    },
+    {
+        "query_id": "q115",
+        "query": "What is the ALCOA principles framework for life sciences data quality?",
+        "relevant_documents": [
+            {
+                "document_id": "doc006"
+            }
+        ]
+    },
+    {
+        "query_id": "q116",
+        "query": "How do chunked file transfers work in data storage systems?",
+        "relevant_documents": [
+            {
+                "document_id": "doc006"
+            }
+        ]
+    },
+    {
+        "query_id": "q117",
+        "query": "What role does redundancy play in research data storage systems?",
+        "relevant_documents": [
+            {
+                "document_id": "doc006"
+            }
+        ]
+    },
+    {
+        "query_id": "q118",
+        "query": "How did the faithfulness metric in RAGAs fail during the chunking evaluation?",
+        "relevant_documents": [
+            {
+                "document_id": "doc007"
+            }
+        ]
+    },
+    {
+        "query_id": "q119",
+        "query": "What hyperparameters were used for cluster-based chunking in the RAG evaluation?",
+        "relevant_documents": [
+            {
+                "document_id": "doc007"
+            }
+        ]
+    },
+    {
+        "query_id": "q120",
+        "query": "How does FlintKV use prefetching to optimize the combiner's performance?",
+        "relevant_documents": [
+            {
+                "document_id": "doc008"
+            }
+        ]
+    },
+    {
+        "query_id": "q121",
+        "query": "What bugs were found in ListDB when integrating FlintKV?",
+        "relevant_documents": [
+            {
+                "document_id": "doc008"
+            }
+        ]
+    },
+    {
+        "query_id": "q122",
+        "query": "How does FlintKV's Snapshot operation produce consistent point-in-time views?",
+        "relevant_documents": [
+            {
+                "document_id": "doc008"
+            }
+        ]
+    },
+    {
+        "query_id": "q123",
+        "query": "What is the difference between SFENCE and MFENCE in NVM persistence?",
+        "relevant_documents": [
+            {
+                "document_id": "doc008"
+            }
+        ]
+    },
+    {
+        "query_id": "q124",
+        "query": "How does the pipelining concept in TCP's reliable data transfer relate to batching in FlintKV's flat-combining?",
+        "relevant_documents": [
+            {
+                "document_id": "doc004"
+            },
+            {
+                "document_id": "doc008"
+            }
+        ]
+    },
+    {
+        "query_id": "q125",
+        "query": "How do checksums ensure data integrity across both network protocols and research data storage?",
+        "relevant_documents": [
+            {
+                "document_id": "doc004"
+            },
+            {
+                "document_id": "doc006"
+            }
+        ]
+    },
+    {
+        "query_id": "q126",
+        "query": "What is the object database in Git and what are its components?",
+        "relevant_documents": [
+            {
+                "document_id": "doc009"
+            }
+        ]
+    },
+    {
+        "query_id": "q127",
+        "query": "How does Git handle fast-forward merges?",
+        "relevant_documents": [
+            {
+                "document_id": "doc009"
+            }
+        ]
+    },
+    {
+        "query_id": "q128",
+        "query": "Explain how the index (staging area) works in the Git workflow.",
+        "relevant_documents": [
+            {
+                "document_id": "doc009"
+            }
+        ]
+    },
+    {
+        "query_id": "q129",
+        "query": "How can you fix a mistake by rewriting history in Git?",
+        "relevant_documents": [
+            {
+                "document_id": "doc009"
+            }
+        ]
+    },
+    {
+        "query_id": "q130",
+        "query": "What are tree objects and blob objects in Git?",
+        "relevant_documents": [
+            {
+                "document_id": "doc009"
+            }
+        ]
+    },
+    {
+        "query_id": "q131",
+        "query": "How does git fetch differ from git pull?",
+        "relevant_documents": [
+            {
+                "document_id": "doc009"
+            }
+        ]
+    },
+    {
+        "query_id": "q132",
+        "query": "Explain the process of resolving a merge conflict in Git.",
+        "relevant_documents": [
+            {
+                "document_id": "doc009"
+            }
+        ]
+    },
+    {
+        "query_id": "q133",
+        "query": "What are dangling objects in Git and how do they occur?",
+        "relevant_documents": [
+            {
+                "document_id": "doc009"
+            }
+        ]
+    },
+    {
+        "query_id": "q134",
+        "query": "How do you use git bisect to find a regression?",
+        "relevant_documents": [
+            {
+                "document_id": "doc009"
+            }
+        ]
+    },
+    {
+        "query_id": "q135",
+        "query": "What is the GitHub flow and how does it differ from traditional workflows?",
+        "relevant_documents": [
+            {
+                "document_id": "doc010"
+            }
+        ]
+    },
+    {
+        "query_id": "q136",
+        "query": "How do you create a pull request on GitHub?",
+        "relevant_documents": [
+            {
+                "document_id": "doc010"
+            }
+        ]
+    },
+    {
+        "query_id": "q137",
+        "query": "What is the purpose of the README.md and CONTRIBUTING.md files in a GitHub repository?",
+        "relevant_documents": [
+            {
+                "document_id": "doc010"
+            }
+        ]
+    },
+    {
+        "query_id": "q138",
+        "query": "How can you cross-link to other issues and pull requests in GitHub using Markdown?",
+        "relevant_documents": [
+            {
+                "document_id": "doc010"
+            }
+        ]
+    },
+    {
+        "query_id": "q139",
+        "query": "What is a fork on GitHub and when is it typically used?",
+        "relevant_documents": [
+            {
+                "document_id": "doc010"
+            }
+        ]
+    },
+    {
+        "query_id": "q140",
+        "query": "How do you set up an SSH key to connect to GitHub?",
+        "relevant_documents": [
+            {
+                "document_id": "doc010"
+            }
+        ]
+    },
+    {
+        "query_id": "q141",
+        "query": "What does the Pulse view show in a GitHub repository?",
+        "relevant_documents": [
+            {
+                "document_id": "doc010"
+            }
+        ]
+    },
+    {
+        "query_id": "q142",
+        "query": "What is HyphaeDB and how does it reinterpret the HNSW graph?",
+        "relevant_documents": [
+            {
+                "document_id": "doc011"
+            }
+        ]
+    },
+    {
+        "query_id": "q143",
+        "query": "How does knowledge propagate between agents in HyphaeDB?",
+        "relevant_documents": [
+            {
+                "document_id": "doc011"
+            }
+        ]
+    },
+    {
+        "query_id": "q144",
+        "query": "What are the three primitives that HyphaeDB is built upon?",
+        "relevant_documents": [
+            {
+                "document_id": "doc011"
+            }
+        ]
+    },
+    {
+        "query_id": "q145",
+        "query": "How does HyphaeDB detect contradictions automatically?",
+        "relevant_documents": [
+            {
+                "document_id": "doc011"
+            }
+        ]
+    },
+    {
+        "query_id": "q146",
+        "query": "What is the energy model in HyphaeDB and how does it attenuate propagation?",
+        "relevant_documents": [
+            {
+                "document_id": "doc011"
+            }
+        ]
+    },
+    {
+        "query_id": "q147",
+        "query": "How does layer promotion enable emergent consensus in HyphaeDB?",
+        "relevant_documents": [
+            {
+                "document_id": "doc011"
+            }
+        ]
+    },
+    {
+        "query_id": "q148",
+        "query": "What are standing beacons in the context of HyphaeDB?",
+        "relevant_documents": [
+            {
+                "document_id": "doc011"
+            }
+        ]
+    },
+    {
+        "query_id": "q149",
+        "query": "How does organic knowledge decay work in HyphaeDB?",
+        "relevant_documents": [
+            {
+                "document_id": "doc011"
+            }
+        ]
+    },
+    {
+        "query_id": "q150",
+        "query": "What is the Swarm-Driven Development (SDD) methodology mentioned in the HyphaeDB paper?",
+        "relevant_documents": [
+            {
+                "document_id": "doc011"
+            }
+        ]
+    },
+    {
+        "query_id": "q151",
+        "query": "How do you list hidden files in a Linux directory?",
+        "relevant_documents": [
+            {
+                "document_id": "doc012"
+            },
+            {
+                "document_id": "doc016"
+            }
+        ]
+    },
+    {
+        "query_id": "q152",
+        "query": "Explain the numeric based permissions in Linux.",
+        "relevant_documents": [
+            {
+                "document_id": "doc012"
+            },
+            {
+                "document_id": "doc016"
+            }
+        ]
+    },
+    {
+        "query_id": "q153",
+        "query": "What is the purpose of the umask in Linux file creation?",
+        "relevant_documents": [
+            {
+                "document_id": "doc012"
+            },
+            {
+                "document_id": "doc016"
+            }
+        ]
+    },
+    {
+        "query_id": "q154",
+        "query": "How can you run a process in the background in Linux?",
+        "relevant_documents": [
+            {
+                "document_id": "doc012"
+            },
+            {
+                "document_id": "doc016"
+            }
+        ]
+    },
+    {
+        "query_id": "q155",
+        "query": "What is cron and how do you schedule repeated jobs with it?",
+        "relevant_documents": [
+            {
+                "document_id": "doc012"
+            },
+            {
+                "document_id": "doc016"
+            }
+        ]
+    },
+    {
+        "query_id": "q156",
+        "query": "How do you use sudo to run commands as another user?",
+        "relevant_documents": [
+            {
+                "document_id": "doc012"
+            },
+            {
+                "document_id": "doc016"
+            }
+        ]
+    },
+    {
+        "query_id": "q157",
+        "query": "What is the difference between standard output and standard error in Linux redirection?",
+        "relevant_documents": [
+            {
+                "document_id": "doc012"
+            },
+            {
+                "document_id": "doc016"
+            }
+        ]
+    },
+    {
+        "query_id": "q158",
+        "query": "How do you compress files and create archives in Linux?",
+        "relevant_documents": [
+            {
+                "document_id": "doc012"
+            },
+            {
+                "document_id": "doc016"
+            }
+        ]
+    },
+    {
+        "query_id": "q159",
+        "query": "Explain the Linux directory structure and the purpose of common directories like /etc and /var.",
+        "relevant_documents": [
+            {
+                "document_id": "doc012"
+            },
+            {
+                "document_id": "doc016"
+            }
+        ]
+    },
+    {
+        "query_id": "q160",
+        "query": "How do you search for text in ASCII files using Linux commands?",
+        "relevant_documents": [
+            {
+                "document_id": "doc012"
+            },
+            {
+                "document_id": "doc016"
+            }
+        ]
+    },
+    {
+        "query_id": "q161",
+        "query": "What is the difference between supervised and unsupervised learning?",
+        "relevant_documents": [
+            {
+                "document_id": "doc013"
+            }
+        ]
+    },
+    {
+        "query_id": "q162",
+        "query": "How does a Threshold Logic Unit (TLU) function in neural networks?",
+        "relevant_documents": [
+            {
+                "document_id": "doc013"
+            }
+        ]
+    },
+    {
+        "query_id": "q163",
+        "query": "Explain the backpropagation method for training feedforward networks.",
+        "relevant_documents": [
+            {
+                "document_id": "doc013"
+            }
+        ]
+    },
+    {
+        "query_id": "q164",
+        "query": "What are decision trees and how do they use uncertainty reduction (entropy)?",
+        "relevant_documents": [
+            {
+                "document_id": "doc013"
+            }
+        ]
+    },
+    {
+        "query_id": "q165",
+        "query": "What is overfitting in decision trees and how can it be avoided?",
+        "relevant_documents": [
+            {
+                "document_id": "doc013"
+            }
+        ]
+    },
+    {
+        "query_id": "q166",
+        "query": "What is Q-Learning and how does it deal with delayed reinforcement?",
+        "relevant_documents": [
+            {
+                "document_id": "doc013"
+            }
+        ]
+    },
+    {
+        "query_id": "q167",
+        "query": "How do nearest-neighbor methods work in statistical learning?",
+        "relevant_documents": [
+            {
+                "document_id": "doc013"
+            }
+        ]
+    },
+    {
+        "query_id": "q168",
+        "query": "What is the Vapnik-Chervonenkis (VC) dimension in computational learning theory?",
+        "relevant_documents": [
+            {
+                "document_id": "doc013"
+            }
+        ]
+    },
+    {
+        "query_id": "q169",
+        "query": "How do hierarchical clustering methods differ from centroid-based clustering?",
+        "relevant_documents": [
+            {
+                "document_id": "doc013"
+            }
+        ]
+    },
+    {
+        "query_id": "q170",
+        "query": "What is temporal-difference learning and how is it used in applications like TD-gammon?",
+        "relevant_documents": [
+            {
+                "document_id": "doc013"
+            }
+        ]
+    },
+    {
+        "query_id": "q171",
+        "query": "What is the Java Virtual Machine (JVM) and why is it important?",
+        "relevant_documents": [
+            {
+                "document_id": "doc014"
+            }
+        ]
+    },
+    {
+        "query_id": "q172",
+        "query": "How do variables and types work in Java?",
+        "relevant_documents": [
+            {
+                "document_id": "doc014"
+            }
+        ]
+    },
+    {
+        "query_id": "q173",
+        "query": "What is the difference between built-in subroutines and classes/objects in Java?",
+        "relevant_documents": [
+            {
+                "document_id": "doc014"
+            }
+        ]
+    },
+    {
+        "query_id": "q174",
+        "query": "How does Java handle formatted text output?",
+        "relevant_documents": [
+            {
+                "document_id": "doc014"
+            }
+        ]
+    },
+    {
+        "query_id": "q175",
+        "query": "What is the purpose of the Scanner class in Java?",
+        "relevant_documents": [
+            {
+                "document_id": "doc014"
+            }
+        ]
+    },
+    {
+        "query_id": "q176",
+        "query": "How do precedence rules affect the evaluation of arithmetic expressions in Java?",
+        "relevant_documents": [
+            {
+                "document_id": "doc014"
+            }
+        ]
+    },
+    {
+        "query_id": "q177",
+        "query": "What are multiline strings or text blocks in Java?",
+        "relevant_documents": [
+            {
+                "document_id": "doc014"
+            }
+        ]
+    },
+    {
+        "query_id": "q178",
+        "query": "Explain the difference between while loops, do-while loops, and for loops in Java control structures.",
+        "relevant_documents": [
+            {
+                "document_id": "doc014"
+            }
+        ]
+    },
+    {
+        "query_id": "q179",
+        "query": "How are exceptions handled using try-catch blocks in Java?",
+        "relevant_documents": [
+            {
+                "document_id": "doc014"
+            }
+        ]
+    },
+    {
+        "query_id": "q180",
+        "query": "What is a JSON Web Token (JWT) and what problems does it solve?",
+        "relevant_documents": [
+            {
+                "document_id": "doc015"
+            }
+        ]
+    },
+    {
+        "query_id": "q181",
+        "query": "What are the three parts of a JWT structure?",
+        "relevant_documents": [
+            {
+                "document_id": "doc015"
+            }
+        ]
+    },
+    {
+        "query_id": "q182",
+        "query": "What is the difference between JSON Web Signatures (JWS) and JSON Web Encryption (JWE)?",
+        "relevant_documents": [
+            {
+                "document_id": "doc015"
+            }
+        ]
+    },
+    {
+        "query_id": "q183",
+        "query": "What are some common registered claims found in a JWT payload?",
+        "relevant_documents": [
+            {
+                "document_id": "doc015"
+            }
+        ]
+    },
+    {
+        "query_id": "q184",
+        "query": "How does signature stripping attack work against JWTs?",
+        "relevant_documents": [
+            {
+                "document_id": "doc015"
+            }
+        ]
+    },
+    {
+        "query_id": "q185",
+        "query": "What is the alg: none attack in the context of JWTs?",
+        "relevant_documents": [
+            {
+                "document_id": "doc015"
+            }
+        ]
+    },
+    {
+        "query_id": "q186",
+        "query": "How can Cross-Site Request Forgery (CSRF) affect client-side sessions using JWTs?",
+        "relevant_documents": [
+            {
+                "document_id": "doc015"
+            }
+        ]
+    },
+    {
+        "query_id": "q187",
+        "query": "What is the difference between HS256 and RS256 signing algorithms for JWTs?",
+        "relevant_documents": [
+            {
+                "document_id": "doc015"
+            }
+        ]
+    },
+    {
+        "query_id": "q188",
+        "query": "How are JSON Web Keys (JWK) used to represent cryptographic keys?",
+        "relevant_documents": [
+            {
+                "document_id": "doc015"
+            }
+        ]
+    },
+    {
+        "query_id": "q189",
+        "query": "Explain the Content Encryption Key (CEK) in the context of JSON Web Encryption.",
+        "relevant_documents": [
+            {
+                "document_id": "doc015"
+            }
+        ]
+    },
+    {
+        "query_id": "q190",
+        "query": "How does the branching model in Git compare to the GitHub flow?",
+        "relevant_documents": [
+            {
+                "document_id": "doc009"
+            },
+            {
+                "document_id": "doc010"
+            }
+        ]
+    },
+    {
+        "query_id": "q191",
+        "query": "What are the similarities between handling concurrent updates in HyphaeDB and resolving merge conflicts in Git?",
+        "relevant_documents": [
+            {
+                "document_id": "doc009"
+            },
+            {
+                "document_id": "doc011"
+            }
+        ]
+    },
+    {
+        "query_id": "q192",
+        "query": "How does executing Java applications on the JVM compare to running compiled binaries on a Linux OS?",
+        "relevant_documents": [
+            {
+                "document_id": "doc012"
+            },
+            {
+                "document_id": "doc014"
+            }
+        ]
+    },
+    {
+        "query_id": "q193",
+        "query": "How could machine learning models (like decision trees or neural networks) be deployed inside a Linux environment for automated tasks?",
+        "relevant_documents": [
+            {
+                "document_id": "doc013"
+            },
+            {
+                "document_id": "doc016"
+            }
+        ]
+    },
+    {
+        "query_id": "q194",
+        "query": "How might JWTs be utilized for securing API communication between multiple agents in a HyphaeDB deployment?",
+        "relevant_documents": [
+            {
+                "document_id": "doc011"
+            },
+            {
+                "document_id": "doc015"
+            }
+        ]
+    },
+    {
+        "query_id": "q195",
+        "query": "What role do SSH keys play when pushing Git commits to a remote repository on GitHub?",
+        "relevant_documents": [
+            {
+                "document_id": "doc009"
+            },
+            {
+                "document_id": "doc010"
+            }
+        ]
+    },
+    {
+        "query_id": "q196",
+        "query": "How does the HNSW graph search optimization in HyphaeDB compare to nearest-neighbor methods in statistical learning?",
+        "relevant_documents": [
+            {
+                "document_id": "doc011"
+            },
+            {
+                "document_id": "doc013"
+            }
+        ]
+    },
+    {
+        "query_id": "q197",
+        "query": "How can cron jobs in Linux be used to automate Git repository backups?",
+        "relevant_documents": [
+            {
+                "document_id": "doc009"
+            },
+            {
+                "document_id": "doc016"
+            }
+        ]
+    },
+    {
+        "query_id": "q198",
+        "query": "How does Java handle multithreading compared to Linux process and job control?",
+        "relevant_documents": [
+            {
+                "document_id": "doc014"
+            },
+            {
+                "document_id": "doc012"
+            }
+        ]
+    },
+    {
+        "query_id": "q199",
+        "query": "What are the security implications of storing JWTs in Linux file systems with improper permissions?",
+        "relevant_documents": [
+            {
+                "document_id": "doc015"
+            },
+            {
+                "document_id": "doc016"
+            }
+        ]
+    },
+    {
+        "query_id": "q200",
+        "query": "How could reinforcement learning concepts like Q-learning be applied to optimize Git merge strategies?",
+        "relevant_documents": [
+            {
+                "document_id": "doc009"
+            },
+            {
+                "document_id": "doc013"
+            }
+        ]
+    },
+    {
+        "query_id": "q201",
+        "query": "How do you define path parameters and query parameters in FastAPI?",
+        "relevant_documents": [
+            {
+                "document_id": "doc017"
+            }
+        ]
+    },
+    {
+        "query_id": "q202",
+        "query": "What is the role of Pydantic in FastAPI for data validation?",
+        "relevant_documents": [
+            {
+                "document_id": "doc017"
+            }
+        ]
+    },
+    {
+        "query_id": "q203",
+        "query": "How does FastAPI utilize async/await to improve performance?",
+        "relevant_documents": [
+            {
+                "document_id": "doc017"
+            }
+        ]
+    },
+    {
+        "query_id": "q204",
+        "query": "Explain how to handle database sessions and transactions using SQLAlchemy in FastAPI.",
+        "relevant_documents": [
+            {
+                "document_id": "doc017"
+            }
+        ]
+    },
+    {
+        "query_id": "q205",
+        "query": "What are the differences between Uvicorn and Gunicorn when deploying a FastAPI application?",
+        "relevant_documents": [
+            {
+                "document_id": "doc017"
+            }
+        ]
+    },
+    {
+        "query_id": "q206",
+        "query": "How can you customize HTTP responses and handle errors using HTTPException in FastAPI?",
+        "relevant_documents": [
+            {
+                "document_id": "doc017"
+            }
+        ]
+    },
+    {
+        "query_id": "q207",
+        "query": "What are the best practices for structuring a scalable FastAPI project into modules?",
+        "relevant_documents": [
+            {
+                "document_id": "doc017"
+            }
+        ]
+    },
+    {
+        "query_id": "q208",
+        "query": "What are the key architectural components of a PostgreSQL database cluster?",
+        "relevant_documents": [
+            {
+                "document_id": "doc018"
+            }
+        ]
+    },
+    {
+        "query_id": "q209",
+        "query": "How does PostgreSQL handle concurrency and Multi-Version Concurrency Control (MVCC)?",
+        "relevant_documents": [
+            {
+                "document_id": "doc018"
+            }
+        ]
+    },
+    {
+        "query_id": "q210",
+        "query": "Explain the process of setting up Point-in-Time Recovery (PITR) in PostgreSQL.",
+        "relevant_documents": [
+            {
+                "document_id": "doc018"
+            }
+        ]
+    },
+    {
+        "query_id": "q211",
+        "query": "What are the differences between logical replication and physical streaming replication in PostgreSQL?",
+        "relevant_documents": [
+            {
+                "document_id": "doc018"
+            }
+        ]
+    },
+    {
+        "query_id": "q212",
+        "query": "How do table partitions work in PostgreSQL and what are their performance benefits?",
+        "relevant_documents": [
+            {
+                "document_id": "doc018"
+            }
+        ]
+    },
+    {
+        "query_id": "q213",
+        "query": "What are the standard isolation levels available in PostgreSQL and how do they differ?",
+        "relevant_documents": [
+            {
+                "document_id": "doc018"
+            }
+        ]
+    },
+    {
+        "query_id": "q214",
+        "query": "How does the PostgreSQL query planner use statistics to generate an execution plan?",
+        "relevant_documents": [
+            {
+                "document_id": "doc018"
+            }
+        ]
+    },
+    {
+        "query_id": "q215",
+        "query": "What are the basic data structures in Python, such as lists, dictionaries, and tuples?",
+        "relevant_documents": [
+            {
+                "document_id": "doc019"
+            }
+        ]
+    },
+    {
+        "query_id": "q216",
+        "query": "How do you handle exceptions using try and except blocks in Python?",
+        "relevant_documents": [
+            {
+                "document_id": "doc019"
+            }
+        ]
+    },
+    {
+        "query_id": "q217",
+        "query": "Explain the process of reading from and writing to files in Python.",
+        "relevant_documents": [
+            {
+                "document_id": "doc019"
+            }
+        ]
+    },
+    {
+        "query_id": "q218",
+        "query": "What is the role of regular expressions in Python and which module provides this functionality?",
+        "relevant_documents": [
+            {
+                "document_id": "doc019"
+            }
+        ]
+    },
+    {
+        "query_id": "q219",
+        "query": "How does Object-Oriented Programming (OOP) work in Python, including classes and inheritance?",
+        "relevant_documents": [
+            {
+                "document_id": "doc019"
+            }
+        ]
+    },
+    {
+        "query_id": "q220",
+        "query": "What are the steps required to install Python on Windows and set up the PATH environment variable?",
+        "relevant_documents": [
+            {
+                "document_id": "doc020"
+            }
+        ]
+    },
+    {
+        "query_id": "q221",
+        "query": "How do you verify a successful Python installation from the command line?",
+        "relevant_documents": [
+            {
+                "document_id": "doc020"
+            }
+        ]
+    },
+    {
+        "query_id": "q222",
+        "query": "What are the core components of a Retrieval-Augmented Generation (RAG) architecture?",
+        "relevant_documents": [
+            {
+                "document_id": "doc021"
+            }
+        ]
+    },
+    {
+        "query_id": "q223",
+        "query": "How does chunking strategy affect the retrieval quality in a RAG system?",
+        "relevant_documents": [
+            {
+                "document_id": "doc021"
+            }
+        ]
+    },
+    {
+        "query_id": "q224",
+        "query": "What role do embedding models play in semantic search for generative AI applications?",
+        "relevant_documents": [
+            {
+                "document_id": "doc021"
+            }
+        ]
+    },
+    {
+        "query_id": "q225",
+        "query": "How can vector databases be integrated into a RAG pipeline for efficient nearest neighbor search?",
+        "relevant_documents": [
+            {
+                "document_id": "doc021"
+            }
+        ]
+    },
+    {
+        "query_id": "q226",
+        "query": "What are the differences between sparse retrieval (like BM25) and dense retrieval in RAG systems?",
+        "relevant_documents": [
+            {
+                "document_id": "doc021"
+            }
+        ]
+    },
+    {
+        "query_id": "q227",
+        "query": "How does prompt engineering influence the generation phase of a RAG pipeline?",
+        "relevant_documents": [
+            {
+                "document_id": "doc021"
+            }
+        ]
+    },
+    {
+        "query_id": "q228",
+        "query": "What are the methods for evaluating the faithfulness and answer relevance of a RAG system?",
+        "relevant_documents": [
+            {
+                "document_id": "doc021"
+            }
+        ]
+    },
+    {
+        "query_id": "q229",
+        "query": "What is the ReSequel system and how does it use LLMs for query rewriting?",
+        "relevant_documents": [
+            {
+                "document_id": "doc022"
+            }
+        ]
+    },
+    {
+        "query_id": "q230",
+        "query": "How does ReSequel leverage catalog and statistical metadata to guide query transformations?",
+        "relevant_documents": [
+            {
+                "document_id": "doc022"
+            }
+        ]
+    },
+    {
+        "query_id": "q231",
+        "query": "Explain the template-based approach used by ReSequel for robust query optimization.",
+        "relevant_documents": [
+            {
+                "document_id": "doc022"
+            }
+        ]
+    },
+    {
+        "query_id": "q232",
+        "query": "How does ReSequel verify the correctness of rewritten query variants using sampled data?",
+        "relevant_documents": [
+            {
+                "document_id": "doc022"
+            }
+        ]
+    },
+    {
+        "query_id": "q233",
+        "query": "What speedups did ReSequel achieve over native DBMSs across different benchmarks?",
+        "relevant_documents": [
+            {
+                "document_id": "doc022"
+            }
+        ]
+    },
+    {
+        "query_id": "q234",
+        "query": "What are goroutines and how do they differ from traditional operating system threads?",
+        "relevant_documents": [
+            {
+                "document_id": "doc023"
+            }
+        ]
+    },
+    {
+        "query_id": "q235",
+        "query": "How do channels facilitate communication and synchronization between goroutines in Go?",
+        "relevant_documents": [
+            {
+                "document_id": "doc023"
+            }
+        ]
+    },
+    {
+        "query_id": "q236",
+        "query": "Explain the difference between arrays and slices in the Go programming language.",
+        "relevant_documents": [
+            {
+                "document_id": "doc023"
+            }
+        ]
+    },
+    {
+        "query_id": "q237",
+        "query": "How does Go handle interfaces and structural typing compared to traditional object-oriented languages?",
+        "relevant_documents": [
+            {
+                "document_id": "doc023"
+            }
+        ]
+    },
+    {
+        "query_id": "q238",
+        "query": "What is the purpose of the defer statement in Go?",
+        "relevant_documents": [
+            {
+                "document_id": "doc023"
+            }
+        ]
+    },
+    {
+        "query_id": "q239",
+        "query": "How does error handling work in Go using multiple return values?",
+        "relevant_documents": [
+            {
+                "document_id": "doc023"
+            }
+        ]
+    },
+    {
+        "query_id": "q240",
+        "query": "Explain the use of the select statement for multiplexing channel operations in Go.",
+        "relevant_documents": [
+            {
+                "document_id": "doc023"
+            }
+        ]
+    },
+    {
+        "query_id": "q241",
+        "query": "What is the difference between a Docker image and a Docker container?",
+        "relevant_documents": [
+            {
+                "document_id": "doc024"
+            }
+        ]
+    },
+    {
+        "query_id": "q242",
+        "query": "How do you use a Dockerfile to automate the building of Docker images?",
+        "relevant_documents": [
+            {
+                "document_id": "doc024"
+            }
+        ]
+    },
+    {
+        "query_id": "q243",
+        "query": "What are Docker volumes and why are they used for persistent data storage?",
+        "relevant_documents": [
+            {
+                "document_id": "doc024"
+            }
+        ]
+    },
+    {
+        "query_id": "q244",
+        "query": "Explain the purpose of Docker Compose in defining and running multi-container applications.",
+        "relevant_documents": [
+            {
+                "document_id": "doc024"
+            }
+        ]
+    },
+    {
+        "query_id": "q245",
+        "query": "How does Docker networking allow containers to communicate with each other?",
+        "relevant_documents": [
+            {
+                "document_id": "doc024"
+            }
+        ]
+    },
+    {
+        "query_id": "q246",
+        "query": "What is the Docker daemon (dockerd) and how does it interact with the Docker client?",
+        "relevant_documents": [
+            {
+                "document_id": "doc024"
+            }
+        ]
+    },
+    {
+        "query_id": "q247",
+        "query": "What are the main differences between classification and regression tasks in supervised learning?",
+        "relevant_documents": [
+            {
+                "document_id": "doc025"
+            }
+        ]
+    },
+    {
+        "query_id": "q248",
+        "query": "How does the k-means clustering algorithm work for unsupervised learning?",
+        "relevant_documents": [
+            {
+                "document_id": "doc025"
+            }
+        ]
+    },
+    {
+        "query_id": "q249",
+        "query": "What is gradient descent and how is it used to minimize loss functions in machine learning?",
+        "relevant_documents": [
+            {
+                "document_id": "doc025"
+            }
+        ]
+    },
+    {
+        "query_id": "q250",
+        "query": "Explain the concept of cross-validation and why it is important for evaluating ML models.",
+        "relevant_documents": [
+            {
+                "document_id": "doc025"
+            }
+        ]
+    },
+    {
+        "query_id": "q251",
+        "query": "What is the bias-variance tradeoff and how does it relate to model overfitting and underfitting?",
+        "relevant_documents": [
+            {
+                "document_id": "doc025"
+            }
+        ]
+    },
+    {
+        "query_id": "q252",
+        "query": "How do Support Vector Machines (SVM) find the optimal hyperplane for classification?",
+        "relevant_documents": [
+            {
+                "document_id": "doc025"
+            }
+        ]
+    },
+    {
+        "query_id": "q253",
+        "query": "What are activation functions (like ReLU or Sigmoid) and why are they used in neural networks?",
+        "relevant_documents": [
+            {
+                "document_id": "doc025"
+            }
+        ]
+    },
+    {
+        "query_id": "q254",
+        "query": "How does deploying a FastAPI application using Docker containers improve scalability?",
+        "relevant_documents": [
+            {
+                "document_id": "doc017"
+            },
+            {
+                "document_id": "doc024"
+            }
+        ]
+    },
+    {
+        "query_id": "q255",
+        "query": "How do LLM-assisted query rewriting systems like ReSequel optimize queries for databases like PostgreSQL?",
+        "relevant_documents": [
+            {
+                "document_id": "doc022"
+            },
+            {
+                "document_id": "doc018"
+            }
+        ]
+    },
+    {
+        "query_id": "q256",
+        "query": "What are the advantages of writing high-performance microservices in Go compared to Python with FastAPI?",
+        "relevant_documents": [
+            {
+                "document_id": "doc023"
+            },
+            {
+                "document_id": "doc017"
+            }
+        ]
+    },
+    {
+        "query_id": "q257",
+        "query": "How can Python programming concepts be applied to build the extraction pipelines for a RAG architecture?",
+        "relevant_documents": [
+            {
+                "document_id": "doc019"
+            },
+            {
+                "document_id": "doc021"
+            }
+        ]
+    },
+    {
+        "query_id": "q258",
+        "query": "What similarities exist between training ML models (gradient descent) and optimizing LLM query rewrite templates in ReSequel?",
+        "relevant_documents": [
+            {
+                "document_id": "doc025"
+            },
+            {
+                "document_id": "doc022"
+            }
+        ]
+    },
+    {
+        "query_id": "q259",
+        "query": "How does PostgreSQL handle the storage of vector embeddings used in RAG systems?",
+        "relevant_documents": [
+            {
+                "document_id": "doc018"
+            },
+            {
+                "document_id": "doc021"
+            }
+        ]
+    },
+    {
+        "query_id": "q260",
+        "query": "How can Docker Compose be used to orchestrate a FastAPI backend alongside a PostgreSQL database?",
+        "relevant_documents": [
+            {
+                "document_id": "doc024"
+            },
+            {
+                "document_id": "doc017"
+            },
+            {
+                "document_id": "doc018"
+            }
+        ]
+    },
+    {
+        "query_id": "q261",
+        "query": "How does concurrent processing with Go goroutines compare to Python asynchronous operations in FastAPI?",
+        "relevant_documents": [
+            {
+                "document_id": "doc023"
+            },
+            {
+                "document_id": "doc017"
+            }
+        ]
+    },
+    {
+        "query_id": "q262",
+        "query": "What are the best practices for containerizing a Machine Learning model deployment using Docker and FastAPI?",
+        "relevant_documents": [
+            {
+                "document_id": "doc025"
+            },
+            {
+                "document_id": "doc024"
+            },
+            {
+                "document_id": "doc017"
+            }
+        ]
+    },
+    {
+        "query_id": "q263",
+        "query": "How does the execution plan generated by PostgreSQL relate to the template variants verified by ReSequel?",
+        "relevant_documents": [
+            {
+                "document_id": "doc018"
+            },
+            {
+                "document_id": "doc022"
+            }
+        ]
+    }
+]
