@@ -22,3 +22,13 @@ __pycache__/
 
 # data
 data/documents
+data/evaluation
+
+# tests
+test*
+
+#backup
+backup/
+
+#config
+config.json
