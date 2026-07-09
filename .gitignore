@@ -1,15 +1,33 @@
 # venv
 .venv
 
-# dev 
-/dev
-
 # Python
 __pycache__/
 *.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
 # Environment Variables
 .env
+.env.*
 
 # VS Code
 .vscode/
@@ -17,18 +35,33 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# macOS
+# macOS / Windows OS files
 .DS_Store
+Thumbs.db
+desktop.ini
 
 # data
 data/documents
 data/evaluation
+data/metadata/config.json
 
-# tests
+# tests & coverage
 test*
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.tox/
 
-#backup
+# Logs
+*.log
+logs/
+
+# backup
 backup/
 
-#config
+# config
 config.json
+
+# dev folder 
+/dev
