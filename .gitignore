@@ -41,7 +41,7 @@ Thumbs.db
 desktop.ini
 
 # data
-data/documents
+data/raw
 data/evaluation
 data/metadata/config.json
 
