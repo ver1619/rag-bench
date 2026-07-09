@@ -7,9 +7,9 @@ from src.ingestion.service import ingest_documents
 CONFIG_PATH = Path("data/metadata/config.json")
 
 
-def _load_embedding_model() -> str:
+def _load_config() -> dict:
     """
-    Load the embedding model name from the pipeline config.
+    Load the pipeline config.
     """
 
     if not CONFIG_PATH.exists():
@@ -22,7 +22,7 @@ def _load_embedding_model() -> str:
     with CONFIG_PATH.open("r") as f:
         config = json.load(f)
 
-    return config["embedding_model"]
+    return config
 
 
 def generate_chunk_id(index: int) -> str:
@@ -37,11 +37,16 @@ def chunk_documents():
     Chunk all ingested documents using the configured chunker.
     """
 
-    embedding_model = _load_embedding_model()
+    config = _load_config()
+    embedding_model = config["embedding_model"]
+    chunker_name = config.get("chunker", "fixed")
 
     documents = ingest_documents()
 
-    builder = create_pipeline_builder(embedding_model)
+    builder = create_pipeline_builder(
+        model_name=embedding_model,
+        chunker=chunker_name,
+    )
 
     chunker = builder.chunker
 

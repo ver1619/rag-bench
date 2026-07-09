@@ -22,6 +22,8 @@ from src.retrieval.pipeline import RetrievalPipeline
 
 from src.rerankers.factory import (
     create_cross_encoder_reranker,
+    create_bge_reranker,
+    create_mxbai_reranker,
 )
 
 
@@ -46,10 +48,23 @@ def parse_args() -> argparse.Namespace:
     )
 
     parser.add_argument(
+        "--chunker",
+        choices=[
+            "fixed",
+            "recursive",
+            "sentence",
+        ],
+        default="fixed",
+        help="Chunking strategy.",
+    )
+
+    parser.add_argument(
         "--reranker",
         choices=[
             "none",
             "cross",
+            "bge",
+            "mxbai",
         ],
         default="none",
         help="Optional reranker.",
@@ -135,7 +150,10 @@ def main() -> None:
     config_path = Path("data/metadata/config.json")
     config_path.parent.mkdir(parents=True, exist_ok=True)
     with config_path.open("w") as f:
-        json.dump({"embedding_model": args.embedding_model}, f)
+        json.dump({
+            "embedding_model": args.embedding_model,
+            "chunker": args.chunker,
+        }, f, indent=4)
 
 
     # ==================================================
@@ -144,7 +162,10 @@ def main() -> None:
 
     print("\nBuilding pipeline...")
 
-    builder = create_pipeline_builder(args.embedding_model)
+    builder = create_pipeline_builder(
+        model_name=args.embedding_model,
+        chunker=args.chunker,
+    )
 
     pipeline = builder.build()
 
@@ -298,6 +319,10 @@ def main() -> None:
 
         "cross": create_cross_encoder_reranker(),
 
+        "bge": create_bge_reranker(),
+
+        "mxbai": create_mxbai_reranker(),
+
     }
 
     reranker = rerankers[
@@ -403,6 +428,11 @@ def main() -> None:
     print("=" * 100)
     print("Pipeline Summary")
     print("=" * 100)
+
+    print(
+        f"{'Chunker':<20}"
+        f": {builder.chunker.name}"
+    )
 
     print(
         f"{'Documents':<20}"

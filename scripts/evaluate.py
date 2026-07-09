@@ -19,6 +19,8 @@ from src.retrieval.pipeline import RetrievalPipeline
 
 from src.rerankers.factory import (
     create_cross_encoder_reranker,
+    create_bge_reranker,
+    create_mxbai_reranker,
 )
 
 from src.evaluation.dataset import EvaluationDataset
@@ -58,6 +60,8 @@ def parse_args() -> argparse.Namespace:
         choices=[
             "none",
             "cross",
+            "bge",
+            "mxbai",
         ],
         default="none",
         help="Optional reranker.",
@@ -88,9 +92,9 @@ def parse_args() -> argparse.Namespace:
 CONFIG_PATH = Path("data/metadata/config.json")
 
 
-def _load_embedding_model() -> str:
+def _load_config() -> dict:
     """
-    Load the embedding model name from the pipeline config.
+    Load the pipeline config.
     """
 
     if not CONFIG_PATH.exists():
@@ -103,7 +107,7 @@ def _load_embedding_model() -> str:
     with CONFIG_PATH.open("r") as f:
         config = json.load(f)
 
-    return config["embedding_model"]
+    return config
 
 
 def main():
@@ -112,11 +116,16 @@ def main():
 
     benchmark_start = time.perf_counter()
 
-    embedding_model = _load_embedding_model()
+    config = _load_config()
+    embedding_model = config["embedding_model"]
+    chunker = config.get("chunker", "fixed")
 
     print("\nBuilding retrieval pipeline...")
 
-    builder = create_pipeline_builder(embedding_model)
+    builder = create_pipeline_builder(
+        model_name=embedding_model,
+        chunker=chunker,
+    )
 
     print("Ingesting and chunking documents...")
     documents = ingest_documents()
@@ -163,6 +172,10 @@ def main():
         "none": None,
 
         "cross": create_cross_encoder_reranker(),
+
+        "bge": create_bge_reranker(),
+
+        "mxbai": create_mxbai_reranker(),
 
     }
 
