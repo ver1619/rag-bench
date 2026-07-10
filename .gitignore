@@ -65,4 +65,5 @@ backup/
 config.json
 
 # dev folder 
-/dev
+/dev/*
+/dev/colab/
