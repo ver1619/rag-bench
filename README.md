@@ -7,7 +7,8 @@
 ![Qdrant](https://img.shields.io/badge/Qdrant-Local-purple?logo=qdrant&logoColor=white)
 ![Qdrant Cloud](https://img.shields.io/badge/Qdrant_Cloud-Serverless-6236FF?logo=qdrant&logoColor=white)
 ![Google Colab](https://img.shields.io/badge/Google_Colab-T4_GPU-f9ab00?logo=googlecolab&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-Transformers-ffcc00?logo=huggingface&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-Models-ffcc00?logo=huggingface&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 
 **A modular, data-driven benchmarking framework for evaluating and optimizing Retrieval-Augmented Generation (RAG) pipelines.**
 
